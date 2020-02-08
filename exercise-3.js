@@ -8,14 +8,11 @@ var input = [
 
 function dataHandling(input)
 {
-    var result = [];
     for (var i=0; i<input.length;i++)
     {
-        var temp;
-        temp = 'NomorID: ' + input[i][0] + ' ' + 'NamaLengkap: ' + input[i][1] + ' ' + 'TTL: ' + input[i][2] + ' ' + input[i][3] + ' ' + 'Hobi: ' + input[i][4];
-        result.push(temp);
+        temp = 'Nomor ID: ' + input[i][0] + '\n' + 'Nama Lengkap: ' + input[i][1] + '\n' + 'TTL: ' + input[i][2] + ' ' + input[i][3] + '\n' + 'Hobi: ' + input[i][4] + '\n';
+        console.log(temp);
     }
-    return result;
 }
 
 console.log(dataHandling(input))
